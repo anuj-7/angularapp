@@ -1,0 +1,10 @@
+
+.body{
+    background-color: rgba(24, 24, 24, 0.334);
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 800px;
+}
