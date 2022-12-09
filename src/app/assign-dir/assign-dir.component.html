@@ -42,14 +42,11 @@
                 <select class="form-control" (change) = "getCoursedetails($event)">
                     <option value="Default">Select Course</option>
                     <option value="Angular">Angular</option>
-
                 </select>
             </div>
             <div class="col-nd-12" [ngSwitch]="selectedCourse">
                 <h3 class="text-success" *ngSwitchDefault>Please select Course</h3>
                 <h3 class="text-success" *ngSwitchCase="'Angular'">Angular</h3>
-
-
             </div>
         </div>
     </div>

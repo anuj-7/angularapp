@@ -1,0 +1,11 @@
+.mastHead {
+    background-image: url(./education.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+.form{
+    background-color: rgba(84, 85, 167, 0.35);
+}

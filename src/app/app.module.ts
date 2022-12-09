@@ -12,6 +12,8 @@ import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { AttriComponent } from './attri/attri.component';
 import { CustDirDirective } from './cust-dir.directive';
 import { AssignDirComponent } from './assign-dir/assign-dir.component';
+import { DemoComponent } from './demo/demo.component';
+import { SimpleTemplateFormComponent } from './simple-template-form/simple-template-form.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { AssignDirComponent } from './assign-dir/assign-dir.component';
     NgswitchComponent,
     AttriComponent,
     CustDirDirective,
-    AssignDirComponent
+    AssignDirComponent,
+    DemoComponent,
+    SimpleTemplateFormComponent
   ],
   imports: [
     BrowserModule,

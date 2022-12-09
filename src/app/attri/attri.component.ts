@@ -7,7 +7,7 @@ import { Builder } from 'protractor';
   styleUrls: ['./attri.component.css']
 })
 export class AttriComponent implements OnInit {
-
+uname
   colorVal = 'Blue';
   people:any[]=[
     {
@@ -36,5 +36,7 @@ export class AttriComponent implements OnInit {
 
   ngOnInit() {
   }
-
+show(value){
+  this.uname=value;
+}
 }
