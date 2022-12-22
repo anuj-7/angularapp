@@ -1,0 +1,38 @@
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+    box-shadow: 0 0 13px #ff000021;
+}
+
+.container {
+    background-image: url(../images/login-bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+form{
+    padding: 20px;
+    background-color: rgba(81, 81, 83, 0.544);
+    
+}
+
+.btn-add {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.397);
+}
+
+.btn-add i{
+    font-size: 37px;
+    line-height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    margin-right: 3px;
+}
+.btn-add:hover{
+    border: 1px solid #083d75;
+    background: rgb(207, 248, 249);
+    color: rgb(34, 109, 28);
+}

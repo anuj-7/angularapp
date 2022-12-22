@@ -8,6 +8,7 @@ import { NgForm } from '@angular/forms';
 })
 export class SimpleTemplateFormComponent implements OnInit {
 
+  defaultValue: string = "Maharashtra"; 
   constructor() { }
 
   ngOnInit() {
