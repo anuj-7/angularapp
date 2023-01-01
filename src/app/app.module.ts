@@ -22,6 +22,22 @@ import { HttpClientModule } from '@angular/common/http';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { CountPipe } from './count.pipe';
 import { ApiDataComponent } from './api-data/api-data.component';
+import { Comp1Component } from './comp1/comp1.component';
+import { Comp2Component } from './comp2/comp2.component';
+import { Comp3Component } from './comp3/comp3.component';
+import { Comp4Component } from './comp4/comp4.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProductComponent } from './product/product.component';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { LaptopComponent } from './product/laptop/laptop.component';
+import { TvComponent } from './product/tv/tv.component';
+import { TabletComponent } from './product/tablet/tablet.component';
+import { WashingmachineComponent } from './product/washingmachine/washingmachine.component';
+import { DemopostComponent } from './demopost/demopost.component';
+import { PostdetailsComponent } from './postdetails/postdetails.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +59,23 @@ import { ApiDataComponent } from './api-data/api-data.component';
     Servicecom2Component,
     PipedemoComponent,
     CountPipe,
-    ApiDataComponent
+    ApiDataComponent,
+    Comp1Component,
+    Comp2Component,
+    Comp3Component,
+    Comp4Component,
+    AboutusComponent,
+    ContactComponent,
+    ProductComponent,
+    HomeComponent,
+    LoginComponent,
+    PagenotfoundComponent,
+    LaptopComponent,
+    TvComponent,
+    TabletComponent,
+    WashingmachineComponent,
+    DemopostComponent,
+    PostdetailsComponent
   ],
   imports: [
     BrowserModule,
